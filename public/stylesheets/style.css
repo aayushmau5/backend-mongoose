@@ -1,9 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: skyblue;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 40px;
 }
 
 a {
-  color: #00b7ff;
+  color: rgb(71, 170, 209);
+}
+
+.side-nav {
+  width: 20%;
+  height: 100%;
+  padding: 40px;
+  border-right: 1px solid #eee;
+}
+
+.main {
+  padding: 40px;
 }
